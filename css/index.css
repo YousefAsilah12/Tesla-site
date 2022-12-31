@@ -1,0 +1,644 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav Bar  */
+#nav {}
+ 
+html{
+  
+}
+.DropDown2{
+  position: absolute;
+  z-index: 1;
+  font-size: 22px;
+  width: 100%;
+  margin: auto;
+  top: 193vh;
+  text-align: center;
+}
+.DropDown3{
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  width: 100%;
+  margin: auto;
+  top: 195vh;
+  text-align: center;
+}
+.DropDown4{
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  width: 100%;
+  margin: auto;
+  top: 270vh;
+  text-align: center;
+}
+
+
+.iColor-black{
+  color: #171A20;
+}
+.iColor-white{
+color: white;
+font-size: 30px;
+}
+.drop-hover:hover{
+  opacity: 0.8;
+}
+
+
+
+
+.pageOne {
+  height: 100vh;
+  width: 100%  ;
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+
+
+
+#nav h1 {}
+
+.logo {
+  color: white;
+  width: 7%;
+  height: 7%;
+  margin-left: 20px;
+}
+
+#nav h1 span {}
+
+#nav .container {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  outline-offset: 2px;
+  font-family: ' Gotham SSm', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  height: 5vh;
+  position:fixed ;
+  width: 100%;
+
+}
+
+
+
+#nav .navSec1 a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+}
+
+#nav .navSec2 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+
+}
+
+#nav .navSec2 a:hover {
+  background-color: #3e424b;
+}
+
+#nav .navSec1 a:hover {
+  background-color: #3e424b;
+}
+
+
+
+
+/* main */
+.main .container {
+
+  margin: 0px auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.info-button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-display: block;
+  border: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+
+}
+
+.info-button:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+.main .container .primary-text {
+
+  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: block;
+  font-size: 40px;
+  letter-spacing: -0.6px;
+  line-height: 48px;
+  padding: 93.2px 0px 0px 0px;
+  scroll-behavior: smooth;
+  text-align: center;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  width: 959px;
+  z-index: auto;
+
+}
+
+.main .container p a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid rgb(225, 225, 225);
+  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  outline-offset: 2px;
+  position: relative;
+  text-align: start;
+
+}
+
+.main .container p {
+  color: rgb(255, 255, 255);
+  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+  padding-bottom: 14px;
+  padding-inline-end: 24px;
+  padding-inline-start: 24px;
+  padding-top: 6px;
+  scroll-behavior: smooth;
+  text-align: center;
+
+
+
+}
+
+.main .container .not-prime {
+  font-family: serif;
+}
+
+.main .container p a:hover {
+  cursor: pointer;
+  border-bottom-color: rgb(255, 255, 255);
+  box-shadow: rgb(238, 238, 238) 0px 1px 0px 0px;
+  line-height: 20px;
+
+}
+
+
+
+
+/* footer */
+.footer {
+  margin: 60vh auto;
+  align-items: center;
+  color: rgb(238, 238, 238);
+  display: flex;
+  flex-basis: auto;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 20px;
+  padding-bottom: 8px;
+  text-align: center;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+
+.footer .container {
+  box-sizing: border-box;
+  display: grid;
+  font-size: 14px;
+  font-weight: 400;
+  grid-template-columns: 200px 200px 200px 250px;
+  justify-items: center;
+  line-height: 20px;
+  outline-offset: 2px;
+  scroll-behavior: smooth;
+  text-align: center;
+
+}
+
+.footer .container .badge {
+  min-width: 105px;
+  text-align: center;
+
+}
+
+.footer .container .badge .section-1 {
+  align-items: baseline;
+  text-align: center;
+  font-size: 28px;
+}
+
+.footer .container .badge .section-1 i {
+  padding: 0.5vh;
+}
+
+.footer .container .section-2 {
+  font-size: 28px;
+
+
+}
+
+.footer .container .section-2 p {
+  padding-top: 10px;
+}
+
+
+
+.footer .container .section-3 {}
+
+.footer .container .section-4 {
+  opacity: 1;
+  text-align: center;
+  width: 212px;
+}
+
+.footer .container .section-4 .btn-buyNow {
+  align-items: center;
+  block-size: 40px;
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  inline-size: 204px;
+  justify-content: center;
+  line-height: 16.8px;
+  margin-inline-start: 8px;
+  margin-inline-end: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  min-width: 0px;
+  max-width: none;
+  outline-offset: 2px;
+  width: 204px;
+  border: 3px solid white;
+  border-radius: 6px;
+}
+
+.footer .container .section-4 .btn-buyNow:hover {
+  background-color: white;
+  color: black;
+}
+
+.footer .container .section-4 .btn-buyNow span {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16.8px;
+  overflow-wrap: normal;
+  text-align: center;
+  width: 273px;
+}
+
+.clr {
+  margin: 2vh;
+  width: 100%;
+}
+
+.drop-down {
+  color: white;
+  background: none;
+  width: 100px;
+  height: 100px;
+  font-size: 20px;
+}
+
+.drop-down:hover {
+  opacity: 0.5;
+}
+
+.info-button i {
+  font-size: 20px
+}
+
+
+/* Page 2 Layout */
+
+.break{
+}
+/* container  */
+.Layout-page2{
+}
+.Layout-page2 .grid-container{
+  height: 100%;
+  display: grid;
+  grid-template-columns: 75% 1fr;
+  grid-template-rows: 92vh 8vh;
+}
+
+.Layout-page2 .grid-container #carArticle{
+  background-image: url('/resourcess/img/Screenshot\ 2022-12-31\ 075659.png');
+  background-position: center c;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: border-box;
+  height: 90vh;
+  width: 80vw;
+  z-index: auto;
+  }
+
+.Layout-page2 .grid-container #carInformation{
+  height: 90vh;
+  width: 70%;
+  margin: 4vw 0vw 0vh 0vw ;
+  z-index: auto;
+  background-color: white;
+
+}
+
+
+.Layout-page2 .grid-container #carInformation .article{
+  align-items: center;
+  text-align: start;
+  font-family:"Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: -0.4px;
+  line-height: 25px;
+  
+}
+.Layout-page2 .grid-container #carInformation .article p{
+  padding-bottom: 20px;
+  color: #393c41;
+
+}
+
+.Layout-page2 .grid-container #carInformation .article a{
+  color: #171A20;
+
+}
+.Layout-page2 .grid-container #carInformation .article .head-line{
+  padding-bottom: 10px;
+  color: #171A20;
+  font-size: 28px;
+  letter-spacing: -0.5;
+  line-height: 36px;
+  outline-offset: 2px;
+  display: block;
+  font-weight: 600;
+  opacity: 1;
+
+}
+
+
+.small-text{
+  font-weight: 600;
+  font-size: 16px;
+  color: #171A20;
+
+}
+.Layout-page2 .grid-container .footer2nd{
+  width: 100vw;
+  height: 7vw;
+  margin: auto;
+}
+.Layout-page2 .grid-container .footer2nd .container{
+  float: right;
+  display: flex;
+  padding-right: 4vw;
+  padding-bottom: 6vh;
+  font-family:"Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+
+}
+.Layout-page2 .grid-container .footer2nd .container p{
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 4px;
+  margin-right: 6px;
+
+
+}
+
+ .btn-plus{
+  background: none;
+  border: #171A20 3px solid;
+  border-radius: 50%;
+  font-size: 14;
+  margin: 0px 10px;
+  padding: 8px;
+  float: left;
+  font-weight: 600;
+}
+.btn-plus:hover{
+  background-color: #171A20;
+  color: white;
+}
+.btn-buyNow{
+  line-height: 16.8px;
+  color: rgb(23, 26, 32);
+  font-size: 16px;
+  font-weight: 500;
+  scroll-behavior: smooth;
+  width: 204px;
+  background: none;
+  border: rgb(23, 26, 32) 3px solid;
+  border-radius:4px;
+  margin-right: 0
+  ;
+  
+
+}
+.btn-buyNow:hover{
+  color: white;
+  background-color: #171A20;
+
+}
+
+
+/* ********************88 */
+/* 3rd Layout */
+.Layout-page3{
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+}
+
+.Layout-page3 .container{
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 750px 1fr;
+
+
+}
+
+.Layout-page3 .container .first-section {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:100%;
+  
+
+}
+
+.Layout-page3 .container .first-section .container {
+  width: 90vw;
+  height: 20vh;
+  margin: auto;
+  /* margin-top: 40vw; */
+  display: flex;
+  justify-content: center;
+  padding-top: 64px;
+  font-family:"Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px ;
+  font-weight:400 ;
+  line-height: 20px;
+  outline-offset: 2px;
+  position: relative;
+  scroll-behavior: smooth;
+  top: 45vh;
+  color: white;
+  display: grid;
+  grid-template-columns:20% 20% 20% ;
+  
+}
+.Layout-page3 .container .first-section .container .info-1,
+.Layout-page3 .container .first-section .container .info-2,
+.Layout-page3 .container .first-section .container .info-3
+
+ {
+  padding: 2vw;
+  text-align: center;
+  justify-content: center;
+  
+}
+.Layout-page3 .container .first-section .container .info-1 p,
+.Layout-page3 .container .first-section .container .info-2 p,
+.Layout-page3 .container .first-section .container .info-3 p
+
+
+{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  max-inline-size: 600px;
+  padding-top: 1vh;
+}
+.Layout-page3 .container .first-section .container .info-1 h1 i{
+  padding-right: 0.5vw;
+}
+
+
+.Layout-page3 .container .first-section .container .info-1 h1,
+.Layout-page3 .container .first-section .container .info-2 h1,
+.Layout-page3 .container .first-section .container .info-3 h1
+{
+  align-items: baseline;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 28px;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  margin: 0;
+  outline-offset: 2px;
+  text-align: center;
+
+}
+
+.Layout-page3 .container .secound-section {
+}
+.Layout-page3 .container .secound-section .container{
+  display: grid;
+  grid-template-columns: 40vw 60vw;
+  grid-template-rows: 230px;
+  padding: 7vh;
+
+}
+.Layout-page3 .container .secound-section .container .left-section{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-family: "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  outline-offset: 2px;
+  scroll-behavior: smooth;
+  position: relative;
+  left: 10vw;
+}
+
+.Layout-page3 .container .secound-section .container .left-section .p1{
+  display: block;
+  font-size: 17px;
+  letter-spacing: -0.4px;
+  line-height:24px;
+  color: rgb(23, 26, 32);
+
+
+}
+.Layout-page3 .container .secound-section .container .left-section span h1{
+  display: block;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 36px;
+  color: rgb(23, 26, 32);
+}
+.Layout-page3 .container .secound-section .container .left-section .up{
+}
+.Layout-page3 .container .secound-section .container .left-section .down{
+max-width: 432px;
+padding-top:3vh ;
+}
+.Layout-page3 .container .secound-section .container .left-section .down p{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 3px;
+
+}
+.Layout-page3 .container .secound-section .container .left-section .down .btn-buyNow{
+background-attachment: scroll;
+background-origin:padding-box ;
+border-color: rgb(23, 26, 32);
+font-size:16px;
+font-weight: 500;
+line-height: 16.8px;
+width: 204px;
+padding: 10px;
+}
+
+.Layout-page3 .container .secound-section .container .left-section .down .btn-plus{
+margin-top:  2px;
+}
+.Layout-page3 .container .secound-section .container .right-section{
+ color:  rgb(57, 60, 65);
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 20px;
+max-inline-size: 700px;
+font-family:  "Gotham SSm", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+text-align: start;
+}
+.Layout-page3 .container .secound-section .container .right-section a{
+  cursor: pointer;
+  color: rgb(57, 60, 65);
+}
+
+
